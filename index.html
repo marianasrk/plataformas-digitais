@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Geração Exposta — O Globo</title>
+<title>Geração Exposta, O Globo</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -243,6 +243,31 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
   .section-wrap,.section-wide{padding:32px 16px 64px}
   .ig-grid,.neuro-grid{grid-template-columns:1fr}
 }
+
+.reportagem-lista {
+  margin: 20px 0 24px 0;
+  padding-left: 0;
+  list-style: none;
+}
+.reportagem-lista li {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(15px, 2vw, 17px);
+  line-height: 1.7;
+  color: var(--ink);
+  padding: 10px 0 10px 20px;
+  border-bottom: 1px solid var(--borda);
+  position: relative;
+}
+.reportagem-lista li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 18px;
+  width: 8px;
+  height: 2px;
+  background: var(--verde);
+}
+.reportagem-lista li:last-child { border-bottom: none; }
 </style>
 </head>
 <body>
@@ -273,84 +298,161 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
   </div>
 </div>
 
-<!-- ===== REPORTAGEM ===== -->
+<!-- REPORTAGEM ATUALIZADA -->
 <section id="reportagem" class="active">
 <div class="section-wrap">
   <div class="kicker">Sociedade · Tecnologia</div>
   <h1 class="headline">Geração Exposta: crianças, internet e a batalha pelo direito de crescer</h1>
-  <p class="deck">Entre a tela que captura e o cérebro que ainda está em formação, mães, especialistas e as próprias crianças revelam o que está acontecendo com a infância brasileira no mundo digital</p>
+  <p class="deck">Depoimentos de mães, dados científicos e a voz das próprias crianças mostram como o design das plataformas digitais molda e prejudica. A infância brasileira</p>
   <div class="byline">
     <span>Por <strong>Anabelle Silva, Isabel Simões, Isabelly Magliano, Mariana Santos e Nicoly Cardoso</strong></span>
     <span>Plataformas Digitais · 4º semestre · 2026</span>
-    <span>⏱ 12–14 min de leitura</span>
+    <span>⏱ 12 min de leitura</span>
   </div>
   <div class="hero-img"><span class="hero-caption">Foto ilustrativa · O Globo</span></div>
 
   <div class="body-text">
-    <p><strong>Aos 11 anos, Sofia já sabia que tinha um problema.</strong> Ela acordava antes do alarme para checar o celular. Dormia com ele debaixo do travesseiro. No intervalo da escola, em vez de correr no pátio, ficava parada num canto, os olhos fixos na tela, o polegar deslizando em movimento automático pelo feed do TikTok. Quando a mãe tirava o aparelho à noite, ela chorava. Não de birra. De ansiedade. Aquela angústia seca, sem nome, de quem sente que está perdendo algo irreparável.</p>
-    <p><em>Sofia é um nome fictício. Sua história, porém, é real — e se repete em milhões de lares brasileiros.</em></p>
-    <p>A dois quarteirões da escola de Sofia, Ana Paula, mãe de Lucas, 10 anos, diagnosticado com TDAH há um ano e meio, enfrenta uma batalha diferente — mas igualmente cotidiana. "No dia que eu deixo meu filho um pouquinho mais com o celular, eu percebo uma grande mudança no comportamento dele", ela conta. "Ele fica muito mais estressado, muito mais agitado, tem dificuldade de dormir mais cedo." Por isso, chegou a uma conclusão que nenhum psicólogo precisou pronunciar em voz alta: o máximo possível de restrição.</p>
-    <p>E Renata, mãe do Pedro, quatro anos, diagnóstico de Transtorno do Espectro Autista, foi ainda mais longe. O celular foi cortado completamente. "Era algo que deixava ele muito agitado, muito acelerado. Questão de deixar um pouquinho ali já era o suficiente para ele querer mais e mais e mais."</p>
+
+    <p><strong>Aos 11 anos, Sofia já sabia que tinha um problema.</strong> Ela acordava antes do alarme para checar o celular. Dormia com ele debaixo do travesseiro. No intervalo da escola, em vez de correr no pátio, ficava parada num canto, os olhos fixos na tela, o polegar deslizando em movimento automático pela página inicial do TikTok. Quando a mãe tirava o aparelho à noite, ela chorava. Não de birra. De ansiedade.</p>
+
+    <p><em>Sofia é um nome fictício. Sua história, porém, é real, e se repete em milhões de lares brasileiros.</em></p>
+
+    <p>A dois quarteirões da escola de Sofia, Katia Carvalho, 42 anos, moradora de Ouro Fino, em Minas Gerais, enfrenta uma batalha diferente, embora igualmente cotidiana. Mãe de três filhos, ela convive há um ano e meio com o diagnóstico de TDAH do filho mais velho, de 10 anos. "No dia que eu deixo meu filho um pouquinho mais com o celular, eu percebo uma grande mudança no comportamento dele", ela conta. "Ele fica muito mais estressado, muito mais agitado, tem dificuldade de dormir mais cedo."</p>
+
+    <p>Em Jacutinga, também em Minas Gerais, Rafaella, 45 anos, foi ainda mais longe com o filho Pedro, de quatro anos, diagnosticado com Transtorno do Espectro Autista. Mãe de primeira viagem, ela descreve um caminho que começa no desconhecimento e chega à decisão mais radical que uma mãe pode tomar. O celular foi cortado completamente. "Era algo que deixava ele muito agitado, muito acelerado. Questão de deixar um pouquinho ali já era o suficiente para ele querer mais e mais e mais."</p>
+
     <p>Três mães. Três filhos. Três histórias que, juntas, formam o retrato de uma geração que cresceu dentro da internet sem que a internet tivesse sido projetada para ela.</p>
 
     <h2>Os números que o Brasil ainda não quer ver</h2>
-    <p>O Brasil tem hoje cerca de 86 milhões de crianças e adolescentes com acesso à internet, segundo dados da TIC Kids Online Brasil (Cetic.br). Desse total, mais de 80% acessam a rede diariamente, e a esmagadora maioria o faz pelo celular. A maioria tem menos de 13 anos — a idade mínima exigida pelas próprias plataformas para criar uma conta. Mas as plataformas não verificam isso.</p>
-    <p>Em 2023, o Instituto Surgeon General dos Estados Unidos publicou um alerta de saúde pública: o uso frequente de redes sociais por adolescentes está associado a aumento de depressão, ansiedade e comportamentos autolesivos, especialmente em meninas. No Brasil, a Pesquisa Nacional de Saúde do Escolar (PeNSE/IBGE) já apontava, entre 2015 e 2019, aumento expressivo de sintomas de tristeza e solidão entre adolescentes — justamente o período de explosão dos smartphones. A pandemia de Covid-19 aprofundou esse quadro.</p>
-    <p>O que os dados ainda não capturam com precisão é o impacto específico sobre crianças neurodivergentes — aquelas com TDAH, TEA, dislexia, altas habilidades. Para elas, a equação das telas é mais complexa, mais urgente, e ainda muito pouco compreendida pela sociedade e pelas próprias plataformas.</p>
+
+    <p>O Brasil tem hoje cerca de <strong>86 milhões de crianças e adolescentes com acesso à internet</strong>, segundo dados da TIC Kids Online Brasil, pesquisa realizada pelo Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic.br), principal instituto de pesquisa sobre uso da internet no Brasil. Desse total, mais de 80% acessam a rede diariamente, e a esmagadora maioria o faz pelo celular.</p>
+
+    <p>A maioria tem menos de 13 anos, a idade mínima exigida pelas próprias plataformas para criar uma conta. Mas as plataformas não verificam isso. Nunca verificaram.</p>
+
+    <p>Em 2023, o Instituto Surgeon General dos Estados Unidos, equivalente americano ao Ministério da Saúde, publicou um alerta formal de saúde pública: o uso frequente de redes sociais por adolescentes está associado a aumento de depressão, ansiedade e comportamentos autolesivos, especialmente em meninas. No Brasil, a Pesquisa Nacional de Saúde do Escolar, realizada pelo IBGE com estudantes de todo o país, já sinalizava, entre 2015 e 2019, aumento expressivo de sintomas de tristeza e solidão entre adolescentes, justamente o período de explosão dos smartphones. A pandemia de Covid-19 aprofundou esse quadro.</p>
+
+    <p>O que os dados ainda não capturam com precisão é o impacto específico sobre crianças neurodivergentes, ou seja, aquelas com TDAH, TEA, dislexia ou altas habilidades. Para elas, a equação das telas é mais complexa, mais urgente e ainda muito pouco compreendida pela sociedade e pelas próprias plataformas.</p>
 
     <h2>O que a tela está substituindo</h2>
+
     <p>A pergunta que os especialistas fazem não é "quanto tempo na tela?". É outra: "o que esse tempo está substituindo?"</p>
-    <p>A resposta importa porque o cérebro infantil não é um recipiente passivo. Ele está em processo intenso de desenvolvimento, e depende da interação contínua com o ambiente para construir habilidades cognitivas, motoras, linguísticas e socioemocionais. Quando a tela ocupa um lugar privilegiado na rotina da criança, ela pode reduzir o tempo disponível para experiências fundamentais: explorar o ambiente, brincar de forma espontânea, realizar atividades manuais, resolver conflitos, lidar com a frustração.</p>
-    <blockquote>"O ponto central não é sobre quanto tempo a criança passa na tela. É o que esse tempo de tela está substituindo. Será que vai substituir um tempo de qualidade com os pais? Ou oportunidades para a criança experimentar o tédio, ou resolver um problema sem que um adulto ou um dispositivo resolva para ela imediatamente?"</blockquote>
-    <p>— Ana Carolina Souza Lima, psicóloga (CRP 06/236094), entrevistada para esta reportagem.</p>
-    <p>Essas experiências são particularmente relevantes para o desenvolvimento das funções executivas — memória de trabalho, flexibilidade cognitiva, autorregulação emocional. Todas dependem de prática real, de situações que exijam espera, frustração, adaptação.</p>
-    <p>Isso não significa que a tela seja o inimigo. A mesma profissional é clara: o objetivo não é uma infância completamente sem tecnologia. "Com equilíbrio, intencionalidade e mediação, ela amplia as janelas de neurodesenvolvimento infantil ao complementar experiências que dificilmente estariam disponíveis no cotidiano." O ponto de atenção aparece quando o dispositivo passa a ser a principal — ou quase única — estratégia disponível.</p>
+
+    <p>A resposta importa porque o cérebro infantil não é um recipiente passivo. Ele está em processo intenso de desenvolvimento e depende da interação contínua com o ambiente para construir habilidades cognitivas, motoras, linguísticas e socioemocionais. Quando a tela ocupa um lugar privilegiado na rotina da criança, ela pode reduzir o tempo disponível para experiências fundamentais.</p>
+
+    <p>Ana Carolina Souza Lima, psicóloga especializada em desenvolvimento infantil (CRP 06/236094), explica:</p>
+
+    <blockquote>"O ponto central não é sobre quanto tempo a criança passa na tela. É o que esse tempo de tela está substituindo. Será que vai substituir um tempo de qualidade com os pais? Ou oportunidades para a criança experimentar o tédio, resolver um problema sem que um adulto ou um dispositivo resolva para ela imediatamente?"</blockquote>
+
+    <p>Essas experiências são particularmente relevantes para o desenvolvimento das funções executivas. Ana Carolina explica, em linguagem direta, o que está em jogo:</p>
+
+    <ul class="reportagem-lista">
+      <li><strong>Memória de trabalho:</strong> a capacidade de guardar e usar informações ao longo de uma tarefa</li>
+      <li><strong>Flexibilidade cognitiva:</strong> mudar de estratégia quando o plano inicial não funciona</li>
+      <li><strong>Autorregulação emocional:</strong> lidar com frustração, espera e controle de impulsos</li>
+    </ul>
+
+    <p>Isso não significa que a tela seja o inimigo. A própria Ana Carolina é precisa ao calibrar o argumento: "Com equilíbrio, intencionalidade e mediação, ela amplia as janelas de neurodesenvolvimento infantil ao complementar experiências que dificilmente estariam disponíveis no cotidiano." O ponto de atenção aparece quando o dispositivo passa a ser a principal, ou quase única, estratégia disponível para acalmar, entreter ou ocupar a criança.</p>
 
     <h2>O design que captura</h2>
-    <p>As plataformas digitais não foram feitas para ser úteis. Foram feitas para ser irresistíveis. Essa não é uma metáfora — é a descrição técnica do que equipes de engenheiros de comportamento fazem há mais de uma década.</p>
-    <p>O conjunto de técnicas tem nome: <em>persuasive design</em>. Notificações calibradas no momento de maior vulnerabilidade emocional. Sistemas de recompensa variável — você nunca sabe o que vai aparecer no próximo scroll. Autoplay infinito. Botões de curtir que ativam o sistema dopaminérgico. Feeds que mostram o que te faz ficar mais tempo, não o que é bom para você.</p>
-    <p>O córtex pré-frontal — a parte do cérebro responsável por dizer não para si mesmo, por calcular consequências, por resistir à tentação — só termina de se desenvolver por volta dos 25 anos. As plataformas sabem disso. E foram projetadas para explorar exatamente esse ponto cego.</p>
-    <p>Documentos internos do Instagram, vazados em 2021 pela ex-funcionária Frances Haugen, revelaram que a empresa sabia desde pelo menos 2019 que seu produto era prejudicial para adolescentes, especialmente meninas. Uma em cada três meninas que se sentiam mal com a própria aparência atribuía isso ao Instagram. A empresa não divulgou os resultados. Continuou otimizando o algoritmo para engajamento.</p>
+
+    <p>As plataformas digitais não foram feitas para ser úteis. Foram feitas para ser irresistíveis. Essa não é uma metáfora. É a descrição técnica do que equipes de engenheiros de comportamento fazem há mais de uma década.</p>
+
+    <p>O conjunto de técnicas tem nome: design persuasivo. Entre os recursos mais comuns estão:</p>
+
+    <ul class="reportagem-lista">
+      <li><strong>Recompensa variável:</strong> o usuário nunca sabe o que vai aparecer no próxima rolagem da tela, o mesmo mecanismo das máquinas caça-níqueis</li>
+      <li><strong>Notificações calibradas:</strong> disparadas nos momentos de maior vulnerabilidade emocional</li>
+      <li><strong>Reprodução automática infinita:</strong> o próximo vídeo começa antes que você decida se quer assistir</li>
+      <li><strong>Algoritmo de engajamento:</strong> mostram o que te faz ficar mais tempo, não o que é bom para você</li>
+    </ul>
+
+    <p>O córtex pré-frontal, região do cérebro localizada atrás da testa e responsável por tomar decisões, calcular consequências e resistir a impulsos, só termina de se desenvolver por volta dos 25 anos. Em outras palavras: a capacidade de dizer não para si mesmo ainda está sendo construída na infância e na adolescência. As plataformas sabem disso. E foram projetadas para explorar exatamente essa fragilidade.</p>
+
+    <p>Documentos internos do Instagram, vazados em 2021 por Frances Haugen, ex-funcionária do Facebook que tornou públicos documentos sigilosos da empresa em 2021, revelaram que a empresa sabia desde pelo menos 2019 que seu produto era prejudicial para adolescentes, especialmente meninas. Uma em cada três meninas que se sentiam mal com a própria aparência atribuía isso ao Instagram. A empresa não divulgou os resultados. Continuou otimizando o algoritmo para engajamento.</p>
 
     <h2>Quando a tela encontra o cérebro neurodivergente</h2>
-    <p>Para a maioria das crianças, o impacto das telas é um espectro: depende do tempo, do conteúdo, do que está sendo substituído. Mas para crianças neurodivergentes, a equação é diferente. Não necessariamente mais grave em todos os casos. Mas sempre mais intensa.</p>
-    <blockquote>"Crianças com TDAH podem apresentar maior atração por ambientes digitais que possuem estrutura de estímulo, resposta e recompensa frequentes e rápidas. Enquanto crianças com TEA são atraídas pela previsibilidade e pelo controle que o ambiente digital oferece. Mas isso não significa que a tela cause o TDAH, o autismo ou seus sintomas — e sim que os aspectos da tecnologia podem interagir de maneiras diferentes com as características individuais de cada criança."</blockquote>
+
+    <p>Para a maioria das crianças, o impacto das telas é um espectro: depende do tempo, do conteúdo e do que está sendo substituído. Para crianças neurodivergentes, a equação é diferente. Não necessariamente mais grave em todos os casos. Mas sempre mais intensa.</p>
+
+    <blockquote>"Crianças com TDAH podem apresentar maior atração por ambientes digitais que possuem estrutura de estímulo, resposta e recompensa frequentes e rápidas. Enquanto crianças com TEA são atraídas pela previsibilidade e pelo controle que o ambiente digital oferece. Mas isso não significa que a tela cause o TDAH, o autismo ou seus sintomas, e sim que os aspectos da tecnologia podem interagir de maneiras diferentes com as características individuais de cada criança."</blockquote>
+
+    <p style="font-size:14px;color:var(--ink-muted);font-style:italic;margin-top:-14px">Ana Carolina Souza Lima, psicóloga (CRP 06/236094)</p>
 
     <h3>A mãe de Lucas: observar para entender</h3>
-    <p>Lucas tem dez anos e foi diagnosticado com TDAH há um ano e meio. Sua mãe, Ana Paula, não esperou que um terapeuta lhe dissesse o que ela já via com os próprios olhos.</p>
+
+    <p>Lucas, 10 anos, aluno do ensino fundamental em Ouro Fino (MG), foi diagnosticado com TDAH há um ano e meio. Sua mãe, Katia, não esperou que um terapeuta lhe dissesse o que ela já via com os próprios olhos.</p>
+
     <blockquote>"Para mim, o mais importante é observar o comportamento dele e entender o que funciona melhor para a rotina dele. E observando, eu mesma já tirei minhas próprias conclusões, não só ouvindo psicólogos e terapeutas."</blockquote>
-    <p>O que ela observou foi uma relação direta e consistente: mais tela, mais agitação. "No dia que eu deixo meu filho um pouquinho mais com o celular, eu percebo uma grande mudança no comportamento dele. Ele fica muito mais estressado, fica muito mais agitado, tem dificuldade de dormir mais cedo."</p>
-    <blockquote>"Com o meu filho de 10 anos, eu evito ao máximo — tanto telas em geral, celular, tablet, televisão — porque eu sei a grande dificuldade que ele tem depois sobre a concentração."</blockquote>
+
+    <p>O que ela observou foi uma relação direta e consistente: mais tela, mais agitação, mais dificuldade para dormir. A conclusão foi radical na sua simplicidade:</p>
+
+    <blockquote>"Com o meu filho de 10 anos, eu evito ao máximo, tanto telas em geral, celular, tablet, televisão, porque eu sei a grande dificuldade que ele tem depois sobre a concentração."</blockquote>
 
     <h3>A mãe do Pedro: o corte como proteção</h3>
-    <p>Pedro tem por volta de quatro anos e foi diagnosticado com Transtorno do Espectro Autista. Sua mãe, Renata, descreve uma trajetória que muitas famílias reconhecerão: a exposição precoce por falta de informação, e a virada que veio com o diagnóstico.</p>
-    <blockquote>"Entre quando o Pedro tinha ali entre 1 ano e meio e 3 anos de idade, eu, por falta de experiência — meu primeiro filho, mãe de primeira viagem — eu acabava deixando ele mais exposto à tela. Às vezes à noite, antes de dormir, passava algumas horas durante o dia."</blockquote>
-    <p>O diagnóstico mudou tudo. Progressivamente, com orientação das terapeutas e com a observação dos próprios comportamentos do Pedro.</p>
-    <blockquote>"Depois do diagnóstico, a gente começa a ter mais orientações das terapeutas, a gente começa a estudar mais, e isso fez com que a gente tivesse esse alerta de que estava sendo prejudicial. E os próprios comportamentos dele também: ele mais agitado, mais intolerante, com menos paciência, tolerância zero de tempo de espera. A tela faz com que esses sintomas se aflorem mais."</blockquote>
-    <p>A decisão da família foi retirar o celular completamente. A TV foi mantida, mas com regras rígidas: horários fixos, curadoria dos conteúdos, sem exceções. Hoje, a rotina do Pedro é construída ao redor de experiências presenciais: escola de manhã, terapias à tarde, e nos dias livres, parquinho, caminhada, patins, bicicleta.</p>
 
-    <h2>A lei que chegou — e o que ainda falta</h2>
-    <p>Em abril de 2024, o Brasil aprovou a Lei 14.882, o Marco Legal das Redes Sociais. A legislação proíbe o uso de redes sociais por menores de 16 anos sem autorização dos pais e impõe obrigações às plataformas: verificação de idade, restrição de conteúdos nocivos e proibição de técnicas de design persuasivo voltadas ao público infantil.</p>
-    <p>A lei foi um passo real. Mas verificação de idade real, no Brasil, ainda não existe. As plataformas implementaram sistemas de autodeclaração: a criança diz que tem mais de 16 anos e está dentro. Ninguém verifica.</p>
-    <p>O Brasil não está sozinho. Em 2023, o Reino Unido aprovou o Online Safety Act, com multas de até 10% do faturamento global. A Austrália proibiu completamente o acesso de menores de 16 a redes sociais em 2024. A União Europeia opera pelo Digital Services Act, que proíbe a perfilagem de crianças para fins publicitários.</p>
+    <p>Pedro, de cerca de quatro anos, mora em Jacutinga (MG) e foi diagnosticado com Transtorno do Espectro Autista. Sua mãe, Rafaella, 45 anos, descreve uma trajetória que muitas famílias reconhecerão: a exposição precoce por falta de informação e a virada que veio com o diagnóstico.</p>
+
+    <blockquote>"Entre quando o Pedro tinha entre 1 ano e meio e 3 anos de idade, eu, por falta de experiência, meu primeiro filho, mãe de primeira viagem, eu acabava deixando ele mais exposto à tela. Às vezes à noite, antes de dormir, passava algumas horas durante o dia."</blockquote>
+
+    <p>O diagnóstico mudou tudo. Progressivamente, com orientação das terapeutas e com a observação dos próprios comportamentos do Pedro, a família chegou a uma decisão que poucos pais conseguem tomar:</p>
+
+    <blockquote>"Decidimos que o celular iríamos cortar totalmente. Estava prejudicando ele. Era algo que para ele foi muito viciante, questão de deixar um pouquinho já era o suficiente para ele querer mais e mais e mais."</blockquote>
+
+    <p>A TV foi mantida, com regras rígidas: horários fixos, curadoria dos conteúdos, sem exceções. Rafaella resume o antes e o depois com precisão:</p>
+
+    <blockquote>"Depois do diagnóstico, a gente começa a ter mais orientações das terapeutas, a gente começa a estudar mais, e isso fez com que a gente tivesse esse alerta de que estava sendo prejudicial. E os próprios comportamentos dele também: ele mais agitado, mais intolerante, com menos paciência, tolerância zero de tempo de espera. A tela faz com que esses sintomas se aflorem mais."</blockquote>
+
+    <p>Hoje, a rotina do Pedro é construída ao redor de experiências presenciais: escola de manhã, terapias à tarde três vezes por semana e, nos dias livres, parquinho, caminhada, patins, bicicleta.</p>
+
+    <h2>A lei que chegou: o que ainda falta</h2>
+
+    <p>Em abril de 2024, o Brasil aprovou a Lei 14.882, o Marco Legal das Redes Sociais. A legislação proíbe o uso de redes sociais por menores de 16 anos sem autorização dos pais e impõe obrigações às plataformas.</p>
+
+    <p>O que a lei prevê:</p>
+
+    <ul class="reportagem-lista">
+      <li>Verificação de idade antes do cadastro</li>
+      <li>Restrição de conteúdos nocivos para menores</li>
+      <li>Proibição de técnicas de design persuasivo voltadas ao público infantil</li>
+      <li>Responsabilidade civil das plataformas em caso de dano comprovado</li>
+    </ul>
+
+    <p>A lei foi um passo real. Mas verificação de idade real, no Brasil, ainda não existe. As plataformas implementaram sistemas de autodeclaração: a criança diz que tem mais de 16 anos e está dentro. Ninguém verifica. É como colocar uma placa de "proibido para menores" na porta de um bar e achar que isso resolve.</p>
+
+    <p>O Brasil não está sozinho nessa luta. Em 2023, o Reino Unido aprovou o Lei de Segurança Online (nome original em inglês: <em>Online Safety Act</em>), com multas de até 10% do faturamento global para plataformas que descumprirem as regras. A Austrália foi mais longe: em novembro de 2024, proibiu completamente o acesso de menores de 16 anos a redes sociais, transferindo o ônus da verificação para as plataformas. A União Europeia opera pelo Lei de Serviços Digitais (nome original em inglês: <em>Digital Services Act</em>), que proíbe a perfilagem de crianças para fins publicitários.</p>
+
+    <p>O movimento regulatório global é real e irreversível. A questão não é mais se as plataformas vão ser reguladas, mas como, e com que rapidez.</p>
 
     <h2>O que as crianças dizem</h2>
-    <p>"O TikTok me faz sentir que não sou boa o suficiente", disse Gabriela, 13 anos. "Mas eu não consigo parar de olhar."</p>
-    <p>Marcelo, 15 anos, foi o mais direto: "A gente sabe que faz mal. A gente sabe. Mas não tem outra coisa para fazer. Se você não está no WhatsApp, você não existe para o grupo. A internet virou o lugar onde a vida social acontece. E se você ficar de fora, você fica sozinho de verdade."</p>
+
+    <p>Em uma roda de conversa com crianças e adolescentes de 9 a 15 anos de uma escola municipal de São Paulo, as respostas surpreenderam pela honestidade.</p>
+
+    <p>"O TikTok me faz sentir que não sou boa o suficiente", disse Gabriela, 13 anos, aluna do 8º ano. "Mas eu não consigo parar de olhar."</p>
+
+    <p>Marcelo, 15 anos, aluno do 1º ano do ensino médio, foi o mais direto:</p>
+
+    <blockquote>"A gente sabe que faz mal. A gente sabe. Mas não tem outra coisa para fazer. Se você não está no WhatsApp, você não existe para o grupo. A internet virou o lugar onde a vida social acontece. E se você ficar de fora, você fica sozinho de verdade."</blockquote>
+
     <p>Marcelo não está errado. A vida social das crianças migrou para o digital. Proibir o acesso sem oferecer alternativa é, de certa forma, proibir a participação social. Essa tensão não foi resolvida por nenhuma lei.</p>
-    <p>Sofia está melhor. Lucas continua com as restrições que a mãe estabeleceu. Pedro anda de bicicleta no parque três vezes por semana.</p>
+
+    <p>Ana Carolina Souza Lima resume o que está em jogo: "O olhar que a gente precisa ter de verdade não é de uma infância completamente sem tecnologia, e sim que as telas ocupem um lugar funcional. Porque com equilíbrio, intencionalidade e mediação, elas ampliam as janelas de neurodesenvolvimento infantil."</p>
+
+    <p>Sofia está melhor. Lucas vai bem na escola quando o celular fica fora da equação. Pedro anda de bicicleta no parque três vezes por semana.</p>
+
     <p><strong>Nenhum deles deveria precisar de tanto esforço para simplesmente crescer.</strong></p>
 
-    <p class="nota">Nomes de crianças foram alterados para preservar a identidade. Os nomes das mães são fictícios mas os depoimentos são reais, coletados em entrevista para este trabalho. A Ana Carolina Souza Lima, psicóloga (CRP 06/236094) optou por não ser identificada. Fontes: TIC Kids Online Brasil 2023 (Cetic.br); PeNSE 2019 (IBGE); Surgeon General EUA (2023); Lei 14.882/2024; Lei 14.900/2024; DSA (UE); Frances Haugen, 2021.</p>
+    <p class="nota">Nomes de crianças foram alterados para preservar a identidade. Os nomes das mães são fictícios, mas os depoimentos são reais, coletados em entrevista para este trabalho. Fontes: TIC Kids Online Brasil 2023 (Cetic.br); PeNSE 2019 (IBGE); Advisory on Social Media and Youth Mental Health, Surgeon General dos EUA (2023); Online Safety Act, Reino Unido (2023); Lei 14.882/2024; Lei 14.900/2024; Digital Services Act, UE; documentos internos Meta, Frances Haugen (2021).</p>
+
   </div>
 </div>
 </section>
+
 
 <!-- ===== PODCAST ===== -->
 <section id="podcast">
 <div class="section-wrap">
   <div class="kicker">Desdobramento 1 · Áudio</div>
-  <h1 class="headline" style="font-size:clamp(22px,4vw,36px)">Geração Exposta — o preço de crescer online</h1>
+  <h1 class="headline" style="font-size:clamp(22px,4vw,36px)">Geração Exposta, o preço de crescer online</h1>
 
   <div class="podcast-hero">
     <div class="podcast-art">🎙️</div>
@@ -377,7 +479,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
   <div class="roteiro-bloco">
     <div class="bloco-header">Abertura · 0:00 a 0:30</div>
     <div class="bloco-body">
-      <p class="stage">[TRILHA — som ambiente de escola, vozes de crianças, fade para silêncio]</p>
+      <p class="stage">[TRILHA, som ambiente de escola, vozes de crianças, fade para silêncio]</p>
       <p class="fala">"Há 86 milhões de crianças brasileiras com acesso à internet. A maioria usa o celular. Muitas têm menos de 13 anos. As plataformas sabem disso. E foram projetadas para isso."</p>
       <p class="fala">"Eu sou [nome]. E este é Geração Exposta."</p>
       <p class="stage">[TRILHA · 5 segundos · fade]</p>
@@ -385,7 +487,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
   </div>
 
   <div class="roteiro-bloco">
-    <div class="bloco-header">Bloco 1 — O que a tela substitui · 0:30 a 2:00</div>
+    <div class="bloco-header">Bloco 1, O que a tela substitui · 0:30 a 2:00</div>
     <div class="bloco-body">
       <p class="stage">[NARRADOR/A]</p>
       <p class="fala">"As plataformas digitais não foram feitas para ser úteis. Foram feitas para ser irresistíveis. Notificações calibradas, autoplay infinito, recompensa variável. Design feito por equipes de engenheiros comportamentais."</p>
@@ -395,14 +497,14 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
   </div>
 
   <div class="roteiro-bloco">
-    <div class="bloco-header">Bloco 2 — As mães falam · 2:00 a 4:00</div>
+    <div class="bloco-header">Bloco 2, As mães falam · 2:00 a 4:00</div>
     <div class="bloco-body">
       <p class="stage">[NARRADOR/A]</p>
       <p class="fala">"No dia a dia, quem vive essa realidade não são os especialistas. São as mães. Ouvimos duas delas."</p>
-      <p class="stage">[DEPOIMENTO — Mãe de Lucas, 10 anos, TDAH]</p>
-      <p class="fala">"No dia que eu deixo meu filho um pouquinho mais com o celular, eu percebo uma grande mudança no comportamento dele. Ele fica muito mais estressado, muito mais agitado, tem dificuldade de dormir mais cedo. Com o meu filho de 10 anos, eu evito ao máximo — tanto telas em geral, celular, tablet, televisão."</p>
-      <p class="stage">[DEPOIMENTO — Mãe do Pedro, TEA]</p>
-      <p class="fala">"Decidimos que o celular iríamos cortar totalmente. Estava prejudicando ele. Era algo que para ele foi muito viciante — questão de deixar um pouquinho já era o suficiente para ele querer mais e mais e mais. A tela faz com que esses sintomas se aflorem mais."</p>
+      <p class="stage">[DEPOIMENTO Mãe de Lucas, 10 anos, TDAH]</p>
+      <p class="fala">"No dia que eu deixo meu filho um pouquinho mais com o celular, eu percebo uma grande mudança no comportamento dele. Ele fica muito mais estressado, muito mais agitado, tem dificuldade de dormir mais cedo. Com o meu filho de 10 anos, eu evito ao máximo, tanto telas em geral, celular, tablet, televisão."</p>
+      <p class="stage">[DEPOIMENTO Rafaella, mãe do Pedro, TEA]</p>
+      <p class="fala">"Decidimos que o celular iríamos cortar totalmente. Estava prejudicando ele. Era algo que para ele foi muito viciante, questão de deixar um pouquinho já era o suficiente para ele querer mais e mais e mais. A tela faz com que esses sintomas se aflorem mais."</p>
     </div>
   </div>
 
@@ -411,7 +513,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
     <div class="bloco-body">
       <p class="stage">[NARRADOR/A]</p>
       <p class="fala">"A regulação avança. As plataformas prometem mudanças. E as crianças continuam crescendo. Para ler a reportagem completa e explorar o infográfico, acesse globo.com/tecnologia/geracao-exposta."</p>
-      <p class="stage">[TRILHA DE SAÍDA — fade out]</p>
+      <p class="stage">[TRILHA DE SAÍDA, fade out]</p>
     </div>
   </div>
 </div>
@@ -439,7 +541,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
     <div class="ws-info">
       <div class="tag">Desdobramento complementar</div>
       <h3>Por que é webstory e não adaptação?</h3>
-      <p>A webstory escolhe um fio narrativo específico — a perspectiva das mães e das crianças — e conta só esse fio, com a linguagem visual e sequencial que só o formato de stories permite.</p>
+      <p>A webstory escolhe um fio narrativo específico, a perspectiva das mães e das crianças, e conta só esse fio, com a linguagem visual e sequencial que só o formato de stories permite.</p>
       <p>Quem leu a reportagem vai ver algo novo. Quem não leu vai querer ler.</p>
 
       <h3 style="margin-top:24px">Roteiro dos 18 cards</h3>
@@ -465,7 +567,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
 
   <div class="chart-wrap">
     <div class="chart-title">Impactos associados ao uso excessivo de telas</div>
-    <div class="chart-sub">Fonte: Advisory on Social Media and Youth Mental Health — Surgeon General dos EUA (2023)</div>
+    <div class="chart-sub">Fonte: Advisory on Social Media and Youth Mental Health, Surgeon General dos EUA (2023)</div>
     <div class="bar-chart">
       <div class="bar-item"><span class="bar-label">Ansiedade</span><div class="bar-track"><div class="bar-fill" style="width:0%;background:#1B4332" data-w="78">78%</div></div><span class="bar-val">78%</span></div>
       <div class="bar-item"><span class="bar-label">Depressão</span><div class="bar-track"><div class="bar-fill" style="width:0%;background:#2D6A4F" data-w="65">65%</div></div><span class="bar-val">65%</span></div>
@@ -476,15 +578,15 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
   </div>
 
   <div class="map-wrap">
-    <div class="chart-title">Regulação global — clique para detalhes</div>
+    <div class="chart-title">Regulação global, clique para detalhes</div>
     <div class="chart-sub">Países que aprovaram legislações específicas para proteger crianças nas plataformas digitais</div>
     <div class="country-list">
       <div class="country-item" onclick="toggleCountry('br')">
         <span class="country-flag">🇧🇷</span>
-        <div><div class="country-name">Brasil</div><div class="country-law">Lei 14.882/2024 — Marco Legal das Redes Sociais</div></div>
+        <div><div class="country-name">Brasil</div><div class="country-law">Lei 14.882/2024, Marco Legal das Redes Sociais</div></div>
         <span class="country-badge badge-yellow">Em implementação</span>
       </div>
-      <div class="country-detail" id="det-br">Proíbe redes sociais para menores de 16 anos sem autorização dos pais. Veda design persuasivo voltado a crianças. Prevê responsabilidade civil das plataformas. <strong>Problema:</strong> verificação de idade real ainda não existe — funciona por autodeclaração.</div>
+      <div class="country-detail" id="det-br">Proíbe redes sociais para menores de 16 anos sem autorização dos pais. Veda design persuasivo voltado a crianças. Prevê responsabilidade civil das plataformas. <strong>Problema:</strong> verificação de idade real ainda não existe, funciona por autodeclaração.</div>
 
       <div class="country-item" onclick="toggleCountry('au')">
         <span class="country-flag">🇦🇺</span>
@@ -526,7 +628,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
         <p><strong>Por que atrai:</strong> ambientes com estímulo-resposta-recompensa frequentes e rápidas.</p>
         <p><strong>O que as mães observam:</strong> agitação, estresse e dificuldade de sono após o uso.</p>
         <p><strong>O que ajuda:</strong> restrição severa e substituição por atividade física e convivência familiar.</p>
-        <div class="neuro-quote">"No dia que deixo meu filho mais com o celular, ele fica muito mais agitado e tem dificuldade de dormir."</div>
+        <div class="neuro-quote">"No dia que deixo meu filho mais com o celular, ele fica muito mais agitado e tem dificuldade de dormir." — Katia Carvalho, Ouro Fino (MG)</div>
       </div>
       <div class="neuro-card tea">
         <div class="neuro-tag">TEA</div>
@@ -534,10 +636,10 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
         <p><strong>Por que atrai:</strong> previsibilidade e controle que o ambiente digital oferece.</p>
         <p><strong>O que as mães observam:</strong> aceleração, intolerância à frustração e tolerância zero de espera.</p>
         <p><strong>O que ajuda:</strong> corte total do celular; TV com horários e curadoria rígidos.</p>
-        <div class="neuro-quote">"A tela faz com que esses sintomas se aflorem mais."</div>
+        <div class="neuro-quote">"A tela faz com que esses sintomas se aflorem mais." — Rafaella, Jacutinga (MG)</div>
       </div>
     </div>
-    <p style="font-size:13px;color:var(--ink-muted);font-style:italic;margin-top:8px">A especialista é clara: a tela não causa TDAH nem TEA — mas pode interagir de formas diferentes com as características individuais de cada criança.</p>
+    <p style="font-size:13px;color:var(--ink-muted);font-style:italic;margin-top:8px">A especialista é clara: a tela não causa TDAH nem TEA, mas pode interagir de formas diferentes com as características individuais de cada criança.</p>
   </div>
 </div>
 </section>
@@ -613,7 +715,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
             <div class="ig-slide" style="background:#0D1B12;display:flex;align-items:center;justify-content:center">
               <div style="color:#fff;padding:16px">
                 <div style="font-family:'Playfair Display',serif;font-style:italic;font-size:18px;margin-bottom:16px;line-height:1.4">"A gente sabe que faz mal. Mas não tem outra coisa para fazer."</div>
-                <div style="font-size:12px;opacity:.6">— Marcelo, 15 anos</div>
+                <div style="font-size:12px;opacity:.6">Marcelo, 15 anos</div>
               </div>
             </div>
             <div class="ig-slide" style="background:var(--globo-red);display:flex;align-items:center;justify-content:center;flex-direction:column">
@@ -631,7 +733,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
 
       <div class="ig-info">
         <h3>Legenda do post</h3>
-        <div class="legenda-box">Em 2024, o Brasil aprovou uma lei para proteger crianças nas redes sociais. Um ano depois, qualquer criança ainda consegue criar uma conta em menos de 30 segundos — sem documento, sem verificação, sem barreira real.
+        <div class="legenda-box">Em 2024, o Brasil aprovou uma lei para proteger crianças nas redes sociais. Um ano depois, qualquer criança ainda consegue criar uma conta em menos de 30 segundos, sem documento, sem verificação, sem barreira real.
 
 86 milhões de crianças brasileiras estão online. A maioria tem menos de 13 anos.
 
@@ -661,7 +763,7 @@ Reportagem completa no link da bio.</div>
         <h3>Roteiro · até 1min 30s</h3>
 
         <div class="cena-item">
-          <div class="cena-header">0:00 a 0:03 — GANCHO</div>
+          <div class="cena-header">0:00 a 0:03, GANCHO</div>
           <div class="cena-body">
             <strong>Cena:</strong> Tela preta. Texto aparece letra por letra.<br>
             <em>"Seu filho usa o celular mais de 3 horas por dia?"</em><br>
@@ -671,7 +773,7 @@ Reportagem completa no link da bio.</div>
         </div>
 
         <div class="cena-item">
-          <div class="cena-header">0:03 a 0:12 — O DADO</div>
+          <div class="cena-header">0:03 a 0:12, O DADO</div>
           <div class="cena-body">
             Voz over: <em>"86 milhões de crianças brasileiras estão online. A maioria tem menos de 13 anos. E as plataformas foram projetadas para ser irresistíveis."</em><br>
             Cena: feed de celular rolando em câmera lenta.
@@ -680,18 +782,18 @@ Reportagem completa no link da bio.</div>
         </div>
 
         <div class="cena-item">
-          <div class="cena-header">0:12 a 0:45 — DEPOIMENTOS REAIS</div>
+          <div class="cena-header">0:12 a 0:45, DEPOIMENTOS REAIS</div>
           <div class="cena-body">
             Cortes rápidos com texto na tela e voz das mães:<br><br>
-            <em>"No dia que deixo meu filho mais com o celular... ele fica muito mais agitado e tem dificuldade de dormir."</em> — Mãe de Lucas, TDAH<br><br>
-            <em>"O celular para o Pedro foi muito viciante. Um pouquinho já era o suficiente para ele querer mais e mais."</em> — Mãe do Pedro, TEA<br><br>
-            <em>"O ponto central não é quanto tempo na tela. É o que esse tempo está substituindo."</em> — Especialista
+            <em>"No dia que deixo meu filho mais com o celular... ele fica muito mais agitado e tem dificuldade de dormir."</em> Katia Carvalho, mãe de Lucas, TDAH<br><br>
+            <em>"O celular para o Pedro foi muito viciante. Um pouquinho já era o suficiente para ele querer mais e mais."</em> Rafaella, mãe do Pedro, TEA<br><br>
+            <em>"O ponto central não é quanto tempo na tela. É o que esse tempo está substituindo."</em> Especialista
             <div class="cena-why">Vozes reais humanizam. O espectador para quando ouve alguém contando uma história real.</div>
           </div>
         </div>
 
         <div class="cena-item">
-          <div class="cena-header">0:45 a 1:05 — O CONTEXTO</div>
+          <div class="cena-header">0:45 a 1:05, O CONTEXTO</div>
           <div class="cena-body">
             Narração: <em>"Em 2024, o Brasil aprovou uma lei proibindo redes sociais para menores de 16. Mas qualquer criança ainda cria uma conta em menos de 30 segundos."</em><br>
             Cena: mão criando conta no celular. Cronômetro na tela.
@@ -700,7 +802,7 @@ Reportagem completa no link da bio.</div>
         </div>
 
         <div class="cena-item">
-          <div class="cena-header">1:05 a 1:20 — A PERGUNTA</div>
+          <div class="cena-header">1:05 a 1:20, A PERGUNTA</div>
           <div class="cena-body">
             Texto na tela, sem narração:<br>
             <em>"Quando foi a última vez que seu filho ficou entediado de verdade?"</em><br>
@@ -710,7 +812,7 @@ Reportagem completa no link da bio.</div>
         </div>
 
         <div class="cena-item">
-          <div class="cena-header">1:20 a 1:30 — CTA</div>
+          <div class="cena-header">1:20 a 1:30, CTA</div>
           <div class="cena-body">
             <em>"A reportagem completa está no Globo. Link na bio."</em><br>
             Tela: logo O Globo + URL
@@ -749,17 +851,17 @@ const wsCards = [
   {bg:'linear-gradient(160deg,#0D1B12 0%,#1B4332 100%)',kicker:'Geração Exposta · O Globo',title:'Você sabe o que seu filho está vendo agora?',body:'Uma reportagem sobre crianças, internet e o direito de crescer. Deslize para descobrir.'},
   {bg:'#111',kicker:'Os números',title:'86 milhões',body:'de crianças brasileiras têm acesso à internet. A maioria acessa todos os dias. A maioria tem menos de 13 anos. As plataformas sabem disso.'},
   {bg:'linear-gradient(160deg,#1a0a00,#3d1a00)',kicker:'A pergunta',title:'Quando foi a última vez que seu filho ficou entediado?',body:'Sem tela. Sem estímulo. Apenas com os próprios pensamentos.\n\nPara muitas crianças de hoje: nunca.'},
-  {bg:'linear-gradient(160deg,#1B4332,#2D6A4F)',kicker:'A especialista diz',title:'"O ponto central não é quanto tempo na tela."',body:'"É o que esse tempo está substituindo." — Ana Carolina Souza Lima, psicóloga (CRP 06/236094)'},
+  {bg:'linear-gradient(160deg,#1B4332,#2D6A4F)',kicker:'A especialista diz',title:'"O ponto central não é quanto tempo na tela."',body:'"É o que esse tempo está substituindo." Ana Carolina Souza Lima, psicóloga (CRP 06/236094)'},
   {bg:'linear-gradient(160deg,#0a0a1a,#1a1a3d)',kicker:'O que a tela substitui',title:'A tela pode ocupar o lugar de...',body:'• Brincar de forma espontânea\n• Explorar o ambiente\n• Lidar com a frustração\n• Resolver conflitos\n• Simplesmente se entediar'},
   {bg:'linear-gradient(160deg,#1a0a0a,#3d0a0a)',kicker:'O design',title:'As plataformas não foram feitas para ser úteis.',body:'Foram feitas para ser irresistíveis.\n\nNotificações calibradas. Recompensa variável. Autoplay infinito. É design. Não é acidente.'},
   {bg:'linear-gradient(160deg,#0a1a0a,#1B4332)',kicker:'A neurociência',title:'O córtex pré-frontal termina de se desenvolver aos 25 anos.',body:'É a parte responsável por dizer não para si mesmo.\n\nAs plataformas sabem disso.'},
   {bg:'linear-gradient(160deg,#111,#222)',kicker:'Mas quem vive isso...',title:'...não são os especialistas.',body:'São as mães.\n\nOuvimos duas delas.\nCom filhos neurodivergentes.\nCom histórias reais.'},
-  {bg:'linear-gradient(160deg,#1a1000,#3d2800)',kicker:'Mãe de Lucas · TDAH · 10 anos',title:'"No dia que deixo meu filho mais com o celular..."',body:'"...ele fica muito mais estressado, muito mais agitado, tem dificuldade de dormir mais cedo."\n\n— Mãe de Lucas'},
-  {bg:'linear-gradient(160deg,#1a0a00,#2d1500)',kicker:'O que ela decidiu',title:'"Eu evito ao máximo."',body:'"Tanto telas em geral, celular, tablet, televisão. Eu sei a grande dificuldade que ele tem depois sobre a concentração."\n\n— A mesma mãe'},
-  {bg:'linear-gradient(160deg,#000d1a,#001a33)',kicker:'Mãe do Pedro · TEA · 4 anos',title:'"Questão de deixar um pouquinho..."',body:'"...já era o suficiente para ele querer mais e mais e mais. Decidimos cortar o celular totalmente. Estava prejudicando ele."\n\n— Mãe do Pedro'},
-  {bg:'linear-gradient(160deg,#0a0a1a,#1a1a2d)',kicker:'Antes e depois',title:'"Depois do diagnóstico, a gente começa a ter um alerta."',body:'"Ele mais agitado, mais intolerante, tolerância zero de tempo de espera. A tela faz com que esses sintomas se aflorem mais."\n\n— Mãe do Pedro'},
+  {bg:'linear-gradient(160deg,#1a1000,#3d2800)',kicker:'Katia Carvalho · Ouro Fino (MG) · filho com TDAH',title:'"No dia que deixo meu filho mais com o celular..."',body:'"...ele fica muito mais estressado, muito mais agitado, tem dificuldade de dormir mais cedo."\n\nMãe de Lucas'},
+  {bg:'linear-gradient(160deg,#1a0a00,#2d1500)',kicker:'O que ela decidiu',title:'"Eu evito ao máximo."',body:'"Tanto telas em geral, celular, tablet, televisão. Eu sei a grande dificuldade que ele tem depois sobre a concentração."\n\nA mesma mãe'},
+  {bg:'linear-gradient(160deg,#000d1a,#001a33)',kicker:'Rafaella · Jacutinga (MG) · filho com TEA',title:'"Questão de deixar um pouquinho..."',body:'"...já era o suficiente para ele querer mais e mais e mais. Decidimos cortar o celular totalmente. Estava prejudicando ele."\n\nMãe do Pedro'},
+  {bg:'linear-gradient(160deg,#0a0a1a,#1a1a2d)',kicker:'Antes e depois',title:'"Depois do diagnóstico, a gente começa a ter um alerta."',body:'"Ele mais agitado, mais intolerante, tolerância zero de tempo de espera. A tela faz com que esses sintomas se aflorem mais."\n\nMãe do Pedro'},
   {bg:'linear-gradient(160deg,#1B4332,#40916C)',kicker:'A especialista explica',title:'"Isso não significa que a tela causa o TDAH ou o autismo."',body:'"Mas os aspectos da tecnologia podem interagir de maneiras diferentes com as características individuais de cada criança."'},
-  {bg:'linear-gradient(160deg,#111,#1a1a1a)',kicker:'As crianças também falam',title:'"A gente sabe que faz mal. A gente sabe."',body:'"Mas não tem outra coisa para fazer. Se você não está no WhatsApp, você não existe para o grupo."\n\n— Marcelo, 15 anos'},
+  {bg:'linear-gradient(160deg,#111,#1a1a1a)',kicker:'As crianças também falam',title:'"A gente sabe que faz mal. A gente sabe."',body:'"Mas não tem outra coisa para fazer. Se você não está no WhatsApp, você não existe para o grupo."\n\nMarcelo, 15 anos'},
   {bg:'linear-gradient(160deg,#1B4332,#2D6A4F)',kicker:'Brasil, 2024',title:'O Marco Legal das Redes Sociais foi aprovado.',body:'Proibição para menores de 16 ✓\nDesign persuasivo para crianças: proibido ✓\nVerificação de idade real funcionando: ✗\n\nA lei chegou. A implementação ainda não.'},
   {bg:'linear-gradient(160deg,#0a0a1a,#1a1a3d)',kicker:'O mundo também agiu',title:'Outros países também regularam.',body:'🇦🇺 Austrália: proibiu menores de 16 (2024)\n🇬🇧 Reino Unido: Online Safety Act (2023)\n🇪🇺 UE: proibição de publicidade para crianças\n\nO movimento é global e irreversível.'},
   {bg:'linear-gradient(160deg,#0D1B12,#1B4332)',kicker:'Sofia, 13 anos',title:'"Antes eu achava que estava no controle."',body:'"Mas era a tela que estava no controle de mim. Agora eu sei a diferença."\n\nEla está melhor.'},
@@ -809,7 +911,7 @@ wsCards.forEach((c,i) => {
 });
 wsRender();
 
-// ===== INFOGRÁFICO — BARRAS =====
+// ===== INFOGRÁFICO, BARRAS =====
 let barsAnimated = false;
 function animateBars() {
   if(barsAnimated) return;
@@ -833,7 +935,7 @@ const captions = [
   'Deslize para ver mais →',
   '86 milhões de crianças. Maioria com menos de 13 anos.',
   'A lei existe. A implementação ainda não.',
-  '"A gente sabe que faz mal." — Marcelo, 15 anos',
+  '"A gente sabe que faz mal." Marcelo, 15 anos',
   'Reportagem completa no link da bio.'
 ];
 let igIdx = 0;
@@ -865,18 +967,18 @@ function showRS(id) {
 // ===== QUIZ =====
 const questions = [
   {q:'Seu filho tem perfil em alguma rede social?',opts:[{t:'Sim, e eu sei exatamente em quais',s:4},{t:'Sim, mas não sei exatamente em quais',s:2},{t:'Não tem, mas pode criar sem me contar',s:1},{t:'Não tem e tenho certeza disso',s:3},{t:'Não sei',s:0}]},
-  {q:'Você sabe com quem seu filho conversa online?',opts:[{t:'Sim, conheço as principais pessoas',s:4},{t:'Mais ou menos — conheço alguns, não todos',s:2},{t:'Não faço ideia',s:0},{t:'Ele não conversa com ninguém online, que eu saiba',s:3}]},
+  {q:'Você sabe com quem seu filho conversa online?',opts:[{t:'Sim, conheço as principais pessoas',s:4},{t:'Mais ou menos, conheço alguns, não todos',s:2},{t:'Não faço ideia',s:0},{t:'Ele não conversa com ninguém online, que eu saiba',s:3}]},
   {q:'Quanto tempo por dia seu filho passa em telas no total?',opts:[{t:'Menos de 1 hora',s:4},{t:'Entre 1 e 3 horas',s:3},{t:'Entre 3 e 5 horas',s:1},{t:'Mais de 5 horas',s:0},{t:'Nunca medi / não sei',s:1}]},
   {q:'Você sabe o que diz o Marco Legal das Redes Sociais (Lei 14.882/2024)?',opts:[{t:'Sim, sei o que muda na prática',s:4},{t:'Já ouvi falar, mas não sei bem o que diz',s:2},{t:'Não conhecia até agora',s:0}]},
   {q:'Você já conversou com seu filho sobre o que é seguro compartilhar na internet?',opts:[{t:'Sim, conversamos sobre isso com frequência',s:4},{t:'Sim, uma vez ou outra',s:2},{t:'Não, mas pretendo',s:1},{t:'Não e não sei bem como abordar o assunto',s:0}]},
   {q:'Você sabe o que é controle parental e como ativá-lo?',opts:[{t:'Sei e já uso',s:4},{t:'Sei o que é, mas não sei como ativar',s:2},{t:'Ouvi falar, mas não entendo bem',s:1},{t:'Não sabia que isso existia',s:0}]},
-  {q:'Com que frequência você verifica o que seu filho consome online?',opts:[{t:'Frequentemente — faço parte do dia a dia digital dele',s:4},{t:'Às vezes — quando surge alguma situação',s:2},{t:'Raramente',s:1},{t:'Nunca',s:0}]},
-  {q:'Seu filho usa o celular no quarto depois que vai dormir?',opts:[{t:'Não — o celular fica fora do quarto à noite',s:4},{t:'Às vezes',s:2},{t:'Com frequência',s:0},{t:'Não sei',s:1}]},
+  {q:'Com que frequência você verifica o que seu filho consome online?',opts:[{t:'Frequentemente, faço parte do dia a dia digital dele',s:4},{t:'Às vezes, quando surge alguma situação',s:2},{t:'Raramente',s:1},{t:'Nunca',s:0}]},
+  {q:'Seu filho usa o celular no quarto depois que vai dormir?',opts:[{t:'Não, o celular fica fora do quarto à noite',s:4},{t:'Às vezes',s:2},{t:'Com frequência',s:0},{t:'Não sei',s:1}]},
   {q:'Você já percebeu ansiedade ou irritabilidade no seu filho ligadas ao uso de telas?',opts:[{t:'Sim, claramente',s:1},{t:'Talvez, mas não tenho certeza',s:2},{t:'Não percebi',s:3},{t:'Nunca prestei atenção nisso',s:0}]},
-  {q:'Com que frequência você usa o celular na frente dos seus filhos?',opts:[{t:'Raramente — costumo guardar quando estou com eles',s:4},{t:'Às vezes',s:2},{t:'Com frequência',s:1},{t:'Quase o tempo todo',s:0}]},
+  {q:'Com que frequência você usa o celular na frente dos seus filhos?',opts:[{t:'Raramente, costumo guardar quando estou com eles',s:4},{t:'Às vezes',s:2},{t:'Com frequência',s:1},{t:'Quase o tempo todo',s:0}]},
 ];
 const results=[
-  {min:0,max:13,icon:'⚠️',title:'Hora de agir',badge:'Atenção',bc:'#FFF0F3',tc:'#C9184A',desc:'Sem julgamento — a maioria dos pais está nessa situação. As plataformas foram feitas para ser irresistíveis, e os pais competem com engenheiros comportamentais sem ferramentas. A boa notícia: você pode mudar isso. Comece pela reportagem.'},
+  {min:0,max:13,icon:'⚠️',title:'Hora de agir',badge:'Atenção',bc:'#FFF0F3',tc:'#C9184A',desc:'Sem julgamento, a maioria dos pais está nessa situação. As plataformas foram feitas para ser irresistíveis, e os pais competem com engenheiros comportamentais sem ferramentas. A boa notícia: você pode mudar isso. Comece pela reportagem.'},
   {min:14,max:24,icon:'🔎',title:'No caminho certo, mas há lacunas',badge:'Em desenvolvimento',bc:'#FFFBEB',tc:'#B45309',desc:'Você tem boa intenção e já tomou medidas, mas ainda há pontos cegos. Saber com quem seu filho conversa online faz diferença real. A reportagem traz recursos práticos para preencher essas lacunas.'},
   {min:25,max:33,icon:'👍',title:'Acima da média',badge:'Bem informado/a',bc:'#D8F3DC',tc:'#1B4332',desc:'Você conhece as ferramentas, conversa com seu filho e monitora o que acontece. Mas o ambiente digital muda rápido. Continue se atualizando.'},
   {min:34,max:40,icon:'⭐',title:'Referência em casa',badge:'Muito preparado/a',bc:'#D8F3DC',tc:'#1B4332',desc:'Você está entre os pais mais informados e engajados. Compartilhe o que sabe com outros pais e leia a reportagem para entender o cenário regulatório atual.'},
