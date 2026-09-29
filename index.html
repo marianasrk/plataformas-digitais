@@ -628,7 +628,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
         <p><strong>Por que atrai:</strong> ambientes com estímulo-resposta-recompensa frequentes e rápidas.</p>
         <p><strong>O que as mães observam:</strong> agitação, estresse e dificuldade de sono após o uso.</p>
         <p><strong>O que ajuda:</strong> restrição severa e substituição por atividade física e convivência familiar.</p>
-        <div class="neuro-quote">"No dia que deixo meu filho mais com o celular, ele fica muito mais agitado e tem dificuldade de dormir." — Katia Carvalho, Ouro Fino (MG)</div>
+        <div class="neuro-quote">"No dia que deixo meu filho mais com o celular, ele fica muito mais agitado e tem dificuldade de dormir." Katia Carvalho, Ouro Fino (MG)</div>
       </div>
       <div class="neuro-card tea">
         <div class="neuro-tag">TEA</div>
@@ -636,7 +636,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
         <p><strong>Por que atrai:</strong> previsibilidade e controle que o ambiente digital oferece.</p>
         <p><strong>O que as mães observam:</strong> aceleração, intolerância à frustração e tolerância zero de espera.</p>
         <p><strong>O que ajuda:</strong> corte total do celular; TV com horários e curadoria rígidos.</p>
-        <div class="neuro-quote">"A tela faz com que esses sintomas se aflorem mais." — Rafaella, Jacutinga (MG)</div>
+        <div class="neuro-quote">"A tela faz com que esses sintomas se aflorem mais." Rafaella, Jacutinga (MG)</div>
       </div>
     </div>
     <p style="font-size:13px;color:var(--ink-muted);font-style:italic;margin-top:8px">A especialista é clara: a tela não causa TDAH nem TEA, mas pode interagir de formas diferentes com as características individuais de cada criança.</p>
@@ -649,7 +649,7 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
 <div class="section-wrap">
   <div class="kicker">Desdobramento 4 · Quiz interativo</div>
   <h1 class="headline" style="font-size:clamp(22px,4vw,36px);margin-bottom:8px">Você sabe o que seu filho faz na internet?</h1>
-  <p style="color:var(--ink-muted);margin-bottom:36px;font-size:15px">10 perguntas · 3–4 minutos · Resultado personalizado</p>
+  <p style="color:var(--ink-muted);margin-bottom:36px;font-size:15px">10 perguntas · 3 a 4 minutos · Resultado personalizado</p>
   <div class="quiz-wrap">
     <div class="quiz-progress"><div class="quiz-progress-fill" id="qProg" style="width:10%"></div></div>
     <div id="quizScreen">
@@ -848,23 +848,23 @@ function showTab(id) {
 
 // ===== WEBSTORY =====
 const wsCards = [
-  {bg:'linear-gradient(160deg,#0D1B12 0%,#1B4332 100%)',kicker:'Geração Exposta · O Globo',title:'Você sabe o que seu filho está vendo agora?',body:'Uma reportagem sobre crianças, internet e o direito de crescer. Deslize para descobrir.'},
+  {bg:'linear-gradient(160deg,rgba(13,27,18,0.85),rgba(27,67,50,0.9)), url(https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&q=80) center/cover',kicker:'Geração Exposta · O Globo',title:'Você sabe o que seu filho está vendo agora?',body:'Uma reportagem sobre crianças, internet e o direito de crescer. Deslize para descobrir.'},
   {bg:'#111',kicker:'Os números',title:'86 milhões',body:'de crianças brasileiras têm acesso à internet. A maioria acessa todos os dias. A maioria tem menos de 13 anos. As plataformas sabem disso.'},
-  {bg:'linear-gradient(160deg,#1a0a00,#3d1a00)',kicker:'A pergunta',title:'Quando foi a última vez que seu filho ficou entediado?',body:'Sem tela. Sem estímulo. Apenas com os próprios pensamentos.\n\nPara muitas crianças de hoje: nunca.'},
+  {bg:'linear-gradient(160deg,rgba(26,10,0,0.75),rgba(61,26,0,0.85)), url(https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=400&q=80) center/cover',kicker:'A pergunta',title:'Quando foi a última vez que seu filho ficou entediado?',body:'Sem tela. Sem estímulo. Apenas com os próprios pensamentos.\n\nPara muitas crianças de hoje: nunca.'},
   {bg:'linear-gradient(160deg,#1B4332,#2D6A4F)',kicker:'A especialista diz',title:'"O ponto central não é quanto tempo na tela."',body:'"É o que esse tempo está substituindo." Ana Carolina Souza Lima, psicóloga (CRP 06/236094)'},
   {bg:'linear-gradient(160deg,#0a0a1a,#1a1a3d)',kicker:'O que a tela substitui',title:'A tela pode ocupar o lugar de...',body:'• Brincar de forma espontânea\n• Explorar o ambiente\n• Lidar com a frustração\n• Resolver conflitos\n• Simplesmente se entediar'},
-  {bg:'linear-gradient(160deg,#1a0a0a,#3d0a0a)',kicker:'O design',title:'As plataformas não foram feitas para ser úteis.',body:'Foram feitas para ser irresistíveis.\n\nNotificações calibradas. Recompensa variável. Autoplay infinito. É design. Não é acidente.'},
+  {bg:'linear-gradient(160deg,rgba(26,10,10,0.8),rgba(61,10,10,0.85)), url(https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=400&q=80) center/cover',kicker:'O design',title:'As plataformas não foram feitas para ser úteis.',body:'Foram feitas para ser irresistíveis.\n\nNotificações calibradas. Recompensa variável. Autoplay infinito. É design. Não é acidente.'},
   {bg:'linear-gradient(160deg,#0a1a0a,#1B4332)',kicker:'A neurociência',title:'O córtex pré-frontal termina de se desenvolver aos 25 anos.',body:'É a parte responsável por dizer não para si mesmo.\n\nAs plataformas sabem disso.'},
-  {bg:'linear-gradient(160deg,#111,#222)',kicker:'Mas quem vive isso...',title:'...não são os especialistas.',body:'São as mães.\n\nOuvimos duas delas.\nCom filhos neurodivergentes.\nCom histórias reais.'},
-  {bg:'linear-gradient(160deg,#1a1000,#3d2800)',kicker:'Katia Carvalho · Ouro Fino (MG) · filho com TDAH',title:'"No dia que deixo meu filho mais com o celular..."',body:'"...ele fica muito mais estressado, muito mais agitado, tem dificuldade de dormir mais cedo."\n\nMãe de Lucas'},
+  {bg:'linear-gradient(160deg,rgba(17,17,17,0.8),rgba(34,34,34,0.85)), url(https://images.unsplash.com/photo-1476703993599-0035a21b17a9?w=400&q=80) center/cover',kicker:'Mas quem vive isso...',title:'...não são os especialistas.',body:'São as mães.\n\nOuvimos duas delas.\nCom filhos neurodivergentes.\nCom histórias reais.'},
+  {bg:'linear-gradient(160deg,rgba(26,16,0,0.75),rgba(61,40,0,0.85)), url(https://images.unsplash.com/photo-1484863137850-59afcfe05386?w=400&q=80) center/cover',kicker:'Katia Carvalho · Ouro Fino (MG) · filho com TDAH',title:'"No dia que deixo meu filho mais com o celular..."',body:'"...ele fica muito mais estressado, muito mais agitado, tem dificuldade de dormir mais cedo."\n\nMãe de Lucas'},
   {bg:'linear-gradient(160deg,#1a0a00,#2d1500)',kicker:'O que ela decidiu',title:'"Eu evito ao máximo."',body:'"Tanto telas em geral, celular, tablet, televisão. Eu sei a grande dificuldade que ele tem depois sobre a concentração."\n\nA mesma mãe'},
-  {bg:'linear-gradient(160deg,#000d1a,#001a33)',kicker:'Rafaella · Jacutinga (MG) · filho com TEA',title:'"Questão de deixar um pouquinho..."',body:'"...já era o suficiente para ele querer mais e mais e mais. Decidimos cortar o celular totalmente. Estava prejudicando ele."\n\nMãe do Pedro'},
+  {bg:'linear-gradient(160deg,rgba(0,13,26,0.75),rgba(0,26,51,0.85)), url(https://images.unsplash.com/photo-1472162072942-cd5147eb3902?w=400&q=80) center/cover',kicker:'Rafaella · Jacutinga (MG) · filho com TEA',title:'"Questão de deixar um pouquinho..."',body:'"...já era o suficiente para ele querer mais e mais e mais. Decidimos cortar o celular totalmente. Estava prejudicando ele."\n\nMãe do Pedro'},
   {bg:'linear-gradient(160deg,#0a0a1a,#1a1a2d)',kicker:'Antes e depois',title:'"Depois do diagnóstico, a gente começa a ter um alerta."',body:'"Ele mais agitado, mais intolerante, tolerância zero de tempo de espera. A tela faz com que esses sintomas se aflorem mais."\n\nMãe do Pedro'},
   {bg:'linear-gradient(160deg,#1B4332,#40916C)',kicker:'A especialista explica',title:'"Isso não significa que a tela causa o TDAH ou o autismo."',body:'"Mas os aspectos da tecnologia podem interagir de maneiras diferentes com as características individuais de cada criança."'},
-  {bg:'linear-gradient(160deg,#111,#1a1a1a)',kicker:'As crianças também falam',title:'"A gente sabe que faz mal. A gente sabe."',body:'"Mas não tem outra coisa para fazer. Se você não está no WhatsApp, você não existe para o grupo."\n\nMarcelo, 15 anos'},
+  {bg:'linear-gradient(160deg,rgba(17,17,17,0.8),rgba(26,26,26,0.85)), url(https://images.unsplash.com/photo-1566004100631-35d015d6a491?w=400&q=80) center/cover',kicker:'As crianças também falam',title:'"A gente sabe que faz mal. A gente sabe."',body:'"Mas não tem outra coisa para fazer. Se você não está no WhatsApp, você não existe para o grupo."\n\nMarcelo, 15 anos'},
   {bg:'linear-gradient(160deg,#1B4332,#2D6A4F)',kicker:'Brasil, 2024',title:'O Marco Legal das Redes Sociais foi aprovado.',body:'Proibição para menores de 16 ✓\nDesign persuasivo para crianças: proibido ✓\nVerificação de idade real funcionando: ✗\n\nA lei chegou. A implementação ainda não.'},
   {bg:'linear-gradient(160deg,#0a0a1a,#1a1a3d)',kicker:'O mundo também agiu',title:'Outros países também regularam.',body:'🇦🇺 Austrália: proibiu menores de 16 (2024)\n🇬🇧 Reino Unido: Online Safety Act (2023)\n🇪🇺 UE: proibição de publicidade para crianças\n\nO movimento é global e irreversível.'},
-  {bg:'linear-gradient(160deg,#0D1B12,#1B4332)',kicker:'Sofia, 13 anos',title:'"Antes eu achava que estava no controle."',body:'"Mas era a tela que estava no controle de mim. Agora eu sei a diferença."\n\nEla está melhor.'},
+  {bg:'linear-gradient(160deg,rgba(13,27,18,0.75),rgba(27,67,50,0.85)), url(https://images.unsplash.com/photo-1534008897995-27a23e859048?w=400&q=80) center/cover',kicker:'Sofia, 13 anos',title:'"Antes eu achava que estava no controle."',body:'"Mas era a tela que estava no controle de mim. Agora eu sei a diferença."\n\nEla está melhor.'},
   {bg:'linear-gradient(160deg,#CC0000,#990000)',kicker:'Continue lendo',title:'Essa é só uma parte da história.',body:'Leia a reportagem completa.\nOuça o podcast.\nExplore o infográfico.\n\nglobo.com/tecnologia/geracao-exposta'},
 ];
 
