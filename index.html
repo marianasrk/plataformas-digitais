@@ -686,61 +686,157 @@ footer{background:var(--verde);color:#fff;text-align:center;padding:24px;font-si
     <button class="rs-tab" onclick="showRS('tt')">🎵 TikTok</button>
   </div>
 
-  <div class="rs-content active" id="rs-ig">
-    <div class="ig-preview">
-      <div class="ig-phone">
-        <div class="ig-phone-frame">
-          <div class="ig-phone-header">
-            <div class="ig-avatar">G</div>
-            <div><div class="ig-handle">@oglobo</div></div>
+    <div class="rs-content active" id="rs-ig">
+    <div style="margin-bottom:24px">
+      <div class="tag">Chamada 1 · Instagram · Carrossel 5 slides</div>
+      <h2 style="font-family:'Playfair Display',serif;font-size:22px;font-weight:700;color:var(--ink);margin:10px 0 6px">Carrossel produzido pelo grupo</h2>
+      <p style="font-size:14px;color:var(--ink-muted);margin-bottom:24px">Design: Anabelle Silva · Identidade visual do O Globo</p>
+    </div>
+
+    <div style="display:flex;gap:32px;flex-wrap:wrap;align-items:flex-start">
+      <!-- Preview dos slides -->
+      <div style="flex-shrink:0">
+        <div style="width:280px;background:#fff;border:1px solid var(--borda);border-radius:12px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,.1)">
+          <!-- Header Instagram -->
+          <div style="padding:12px 16px;display:flex;align-items:center;gap:10px;border-bottom:1px solid #eee">
+            <div style="width:32px;height:32px;background:#CC0000;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:13px">G</div>
+            <div style="font-size:13px;font-weight:600;color:#000">@oglobo</div>
           </div>
-          <div id="igSlides">
-            <div class="ig-slide active-slide" style="background:linear-gradient(135deg,#111 0%,#1B4332 100%)">
-              <div style="color:#fff">
-                <div style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.6;margin-bottom:8px">O Globo · Sociedade</div>
-                <div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:900;line-height:1.2">A lei foi aprovada.<br>A proteção ainda não chegou.</div>
+          <!-- Slides -->
+          <div id="belSlides">
+            <div class="bel-slide active-slide" style="background:#0a0e1a;aspect-ratio:4/5;padding:24px;display:flex;flex-direction:column;justify-content:space-between;position:relative">
+              <div>
+                <div style="font-size:10px;font-weight:700;letter-spacing:.15em;color:rgba(255,255,255,.5);margin-bottom:6px">SOCIEDADE</div>
+                <div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:900;color:#fff;line-height:1.2;margin-bottom:8px">A lei existe.</div>
+                <div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:900;color:#4FC3F7;line-height:1.2">Mas quem protege as crianças na internet?</div>
               </div>
+              <div style="font-size:12px;color:rgba(255,255,255,.7);line-height:1.5">Entenda os desafios da proteção de menores nas redes sociais.</div>
+              <div style="font-size:10px;font-weight:700;color:#fff;letter-spacing:.05em;opacity:.5;margin-top:8px">O GLOBO</div>
+              <div style="position:absolute;top:16px;right:16px;font-size:11px;color:rgba(255,255,255,.5);font-weight:600">1/5</div>
             </div>
-            <div class="ig-slide" style="background:#111;display:flex;align-items:center;justify-content:center;flex-direction:column">
-              <div style="font-family:'Playfair Display',serif;font-size:64px;font-weight:900;color:#D8F3DC;line-height:1">86M</div>
-              <div style="color:rgba(255,255,255,.7);text-align:center;font-size:14px;margin-top:12px">de crianças brasileiras<br>com acesso à internet.<br><br>A maioria tem menos de 13 anos.</div>
-            </div>
-            <div class="ig-slide" style="background:linear-gradient(135deg,#1B4332,#40916C);display:flex;align-items:center;justify-content:center">
-              <div style="color:#fff;text-align:center;padding:16px">
-                <div style="font-size:13px;opacity:.7;margin-bottom:8px">Em 2024, o Brasil aprovou o Marco Legal das Redes Sociais.</div>
-                <div style="font-size:18px;font-weight:700;margin-bottom:8px">Proibição para menores de 16: ✓<br>Verificação de idade real: ✗</div>
-                <div style="font-size:12px;opacity:.6">A lei chegou. A implementação ainda não.</div>
+            <div class="bel-slide" style="background:#0a0e1a;aspect-ratio:4/5;padding:20px;display:none;flex-direction:column;justify-content:space-between;position:relative">
+              <div>
+                <div style="font-size:10px;font-weight:700;letter-spacing:.15em;color:rgba(255,255,255,.5);margin-bottom:8px">SOCIEDADE</div>
+                <div style="font-family:'Playfair Display',serif;font-size:17px;font-weight:900;color:#fff;line-height:1.2;margin-bottom:6px">Milhões de crianças e <span style="color:#4FC3F7">adolescentes estão conectados</span></div>
+                <div style="font-size:11px;color:rgba(255,255,255,.65);line-height:1.5;margin-bottom:14px">O acesso à internet já faz parte da rotina de grande parte dos jovens brasileiros.</div>
+                <div style="display:flex;flex-direction:column;gap:10px">
+                  <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:10px">
+                    <div style="font-size:18px;font-weight:800;color:#4FC3F7">86 milhões</div>
+                    <div style="font-size:11px;color:rgba(255,255,255,.6)">de crianças têm acesso à internet no Brasil</div>
+                  </div>
+                  <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:10px">
+                    <div style="font-size:18px;font-weight:800;color:#4FC3F7">Mais de 80%</div>
+                    <div style="font-size:11px;color:rgba(255,255,255,.6)">acessam a rede diariamente</div>
+                  </div>
+                  <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:10px">
+                    <div style="font-size:18px;font-weight:800;color:#4FC3F7">Mais de 70%</div>
+                    <div style="font-size:11px;color:rgba(255,255,255,.6)">têm menos de 13 anos</div>
+                  </div>
+                </div>
               </div>
+              <div style="position:absolute;top:16px;right:16px;font-size:11px;color:rgba(255,255,255,.5);font-weight:600">2/5</div>
             </div>
-            <div class="ig-slide" style="background:#0D1B12;display:flex;align-items:center;justify-content:center">
-              <div style="color:#fff;padding:16px">
-                <div style="font-family:'Playfair Display',serif;font-style:italic;font-size:18px;margin-bottom:16px;line-height:1.4">"A gente sabe que faz mal. Mas não tem outra coisa para fazer."</div>
-                <div style="font-size:12px;opacity:.6">Marcelo, 15 anos</div>
+            <div class="bel-slide" style="background:#0a0e1a;aspect-ratio:4/5;padding:20px;display:none;flex-direction:column;justify-content:space-between;position:relative">
+              <div>
+                <div style="font-size:10px;font-weight:700;letter-spacing:.15em;color:rgba(255,255,255,.5);margin-bottom:8px">SOCIEDADE</div>
+                <div style="font-family:'Playfair Display',serif;font-size:17px;font-weight:900;color:#fff;line-height:1.2;margin-bottom:6px">Na prática, <span style="color:#4FC3F7">como saber quem está por trás da tela?</span></div>
+                <div style="font-size:11px;color:rgba(255,255,255,.65);line-height:1.5;margin-bottom:14px">Novas regras buscam aumentar a proteção de menores nas plataformas digitais.</div>
+                <div style="display:flex;flex-direction:column;gap:10px">
+                  <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:10px">
+                    <div style="font-size:13px;font-weight:700;color:#4FC3F7;margin-bottom:3px">Marco Legal das Redes Sociais</div>
+                    <div style="font-size:11px;color:rgba(255,255,255,.6)">A Lei 14.882/2024 estabelece novas medidas de proteção para menores.</div>
+                  </div>
+                  <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:10px">
+                    <div style="font-size:13px;font-weight:700;color:#4FC3F7;margin-bottom:3px">Verificação de idade</div>
+                    <div style="font-size:11px;color:rgba(255,255,255,.6)">O desafio: comprovar a idade sem expor dados sensíveis.</div>
+                  </div>
+                  <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:10px">
+                    <div style="font-size:13px;font-weight:700;color:#4FC3F7;margin-bottom:3px">Privacidade em jogo</div>
+                    <div style="font-size:11px;color:rgba(255,255,255,.6)">Equilíbrio entre proteção e privacidade ainda é o maior desafio.</div>
+                  </div>
+                </div>
               </div>
+              <div style="position:absolute;top:16px;right:16px;font-size:11px;color:rgba(255,255,255,.5);font-weight:600">3/5</div>
             </div>
-            <div class="ig-slide" style="background:var(--globo-red);display:flex;align-items:center;justify-content:center;flex-direction:column">
-              <div style="color:#fff;text-align:center;padding:16px">
-                <div style="font-size:28px;font-weight:900;font-family:'Playfair Display',serif;margin-bottom:12px">Leia a reportagem completa</div>
-                <div style="font-size:14px;opacity:.8">Link na bio</div>
-                <div style="margin-top:16px;font-size:12px;background:rgba(255,255,255,.2);padding:8px 16px;border-radius:20px">globo.com/tecnologia/geracao-exposta</div>
+            <div class="bel-slide" style="background:#0a0e1a;aspect-ratio:4/5;padding:20px;display:none;flex-direction:column;justify-content:space-between;position:relative">
+              <div>
+                <div style="font-size:10px;font-weight:700;letter-spacing:.15em;color:rgba(255,255,255,.5);margin-bottom:8px">SOCIEDADE</div>
+                <div style="font-family:'Playfair Display',serif;font-size:17px;font-weight:900;color:#fff;line-height:1.2;margin-bottom:6px">Já existem medidas, <span style="color:#4FC3F7">mas o desafio ainda é grande</span></div>
+                <div style="font-size:11px;color:rgba(255,255,255,.65);line-height:1.5;margin-bottom:14px">Iniciativas foram implementadas, mas especialistas dizem que ainda é preciso ir muito além.</div>
+                <div style="display:flex;flex-direction:column;gap:10px">
+                  <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:10px">
+                    <div style="font-size:13px;font-weight:700;color:#4FC3F7;margin-bottom:3px">Medidas já em prática</div>
+                    <div style="font-size:11px;color:rgba(255,255,255,.6)">ANPD e Ministério da Justiça já atuam para regular o uso de dados de menores.</div>
+                  </div>
+                  <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:10px">
+                    <div style="font-size:13px;font-weight:700;color:#4FC3F7;margin-bottom:3px">Orientações aos pais</div>
+                    <div style="font-size:11px;color:rgba(255,255,255,.6)">Especialistas recomendam acompanhar o que os filhos fazem online e usar controle parental.</div>
+                  </div>
+                  <div style="border-top:1px solid rgba(255,255,255,.15);padding-top:10px">
+                    <div style="font-size:13px;font-weight:700;color:#4FC3F7;margin-bottom:3px">Plataformas e tecnologia</div>
+                    <div style="font-size:11px;color:rgba(255,255,255,.6)">Algumas redes já oferecem recursos para limitar tempo de uso e filtrar conteúdos.</div>
+                  </div>
+                </div>
               </div>
+              <div style="position:absolute;top:16px;right:16px;font-size:11px;color:rgba(255,255,255,.5);font-weight:600">4/5</div>
+            </div>
+            <div class="bel-slide" style="background:#0a0e1a;aspect-ratio:4/5;padding:24px;display:none;flex-direction:column;justify-content:center;position:relative">
+              <div>
+                <div style="font-size:10px;font-weight:700;letter-spacing:.15em;color:rgba(255,255,255,.5);margin-bottom:12px">SOCIEDADE</div>
+                <div style="font-family:'Playfair Display',serif;font-size:22px;font-weight:900;color:#fff;line-height:1.2;margin-bottom:8px">Quer entender o que está por trás <span style="color:#4FC3F7">da tela?</span></div>
+                <div style="font-size:13px;color:rgba(255,255,255,.75);line-height:1.6;margin-bottom:20px">Leia a reportagem completa, ouça o podcast e explore o quiz.</div>
+                <div style="background:rgba(79,195,247,.15);border:1.5px solid #4FC3F7;border-radius:20px;padding:10px 18px;display:inline-block;font-size:13px;font-weight:700;color:#4FC3F7">📎 LINK NA BIO</div>
+              </div>
+              <div style="position:absolute;top:16px;right:16px;font-size:11px;color:rgba(255,255,255,.5);font-weight:600">5/5</div>
             </div>
           </div>
-          <div class="ig-slide-nav" id="igDots"></div>
-          <div class="ig-caption-area" id="igCaption">Deslize para ver mais →</div>
+          <!-- Dots -->
+          <div style="display:flex;justify-content:center;gap:5px;padding:10px 0;background:#fff">
+            <div class="bel-dot on" onclick="showBelSlide(0)" style="width:6px;height:6px;border-radius:50%;background:#CC0000;cursor:pointer"></div>
+            <div class="bel-dot" onclick="showBelSlide(1)" style="width:6px;height:6px;border-radius:50%;background:#ddd;cursor:pointer"></div>
+            <div class="bel-dot" onclick="showBelSlide(2)" style="width:6px;height:6px;border-radius:50%;background:#ddd;cursor:pointer"></div>
+            <div class="bel-dot" onclick="showBelSlide(3)" style="width:6px;height:6px;border-radius:50%;background:#ddd;cursor:pointer"></div>
+            <div class="bel-dot" onclick="showBelSlide(4)" style="width:6px;height:6px;border-radius:50%;background:#ddd;cursor:pointer"></div>
+          </div>
         </div>
+        <p style="font-size:11px;color:var(--ink-muted);text-align:center;margin-top:8px">Clique nos pontos para navegar</p>
       </div>
 
-      <div class="ig-info">
-        <h3>Legenda do post</h3>
-        <div class="legenda-box">Em 2024, o Brasil aprovou uma lei para proteger crianças nas redes sociais. Um ano depois, qualquer criança ainda consegue criar uma conta em menos de 30 segundos, sem documento, sem verificação, sem barreira real.
+      <!-- Info lateral -->
+      <div style="flex:1;min-width:260px">
+        <h3 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:16px">Legenda do post</h3>
+        <div style="background:var(--creme-escuro);border-radius:8px;padding:16px;font-size:14px;color:var(--ink-mid);line-height:1.7;margin-bottom:16px;white-space:pre-line">Em 2024, o Brasil aprovou uma lei para proteger crianças nas redes sociais. Um ano depois, qualquer criança ainda consegue criar uma conta em menos de 30 segundos.
 
 86 milhões de crianças brasileiras estão online. A maioria tem menos de 13 anos.
 
 Investigamos o tema por meses. Ouvimos mães, especialistas e as próprias crianças.
 
 Reportagem completa no link da bio.</div>
-        <div class="hashtags">#GeraçãoExposta #MarcoLegalRedesSociais #CriançasNaInternet #OGlobo</div>
+        <div style="font-size:13px;color:var(--verde-btn);font-weight:500;margin-bottom:24px">#GeraçãoExposta #MarcoLegalRedesSociais #CriançasNaInternet #OGlobo</div>
+
+        <h3 style="font-family:'Playfair Display',serif;font-size:18px;font-weight:700;color:var(--ink);margin-bottom:12px">Resumo dos 5 slides</h3>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <div style="background:var(--branco);border:1px solid var(--borda);border-radius:8px;padding:14px;display:flex;gap:12px;align-items:flex-start;cursor:pointer" onclick="showBelSlide(0)">
+            <div style="width:24px;height:24px;background:var(--verde);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0">1</div>
+            <div><strong style="font-size:13px;color:var(--ink);display:block;margin-bottom:2px">A lei existe. Mas quem protege as crianças?</strong><span style="font-size:12px;color:var(--ink-muted)">Slide de abertura e apresentação do tema</span></div>
+          </div>
+          <div style="background:var(--branco);border:1px solid var(--borda);border-radius:8px;padding:14px;display:flex;gap:12px;align-items:flex-start;cursor:pointer" onclick="showBelSlide(1)">
+            <div style="width:24px;height:24px;background:var(--verde);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0">2</div>
+            <div><strong style="font-size:13px;color:var(--ink);display:block;margin-bottom:2px">86 milhões conectados</strong><span style="font-size:12px;color:var(--ink-muted)">Dados: 86 milhões, 80% diários, 70% abaixo de 13 anos</span></div>
+          </div>
+          <div style="background:var(--branco);border:1px solid var(--borda);border-radius:8px;padding:14px;display:flex;gap:12px;align-items:flex-start;cursor:pointer" onclick="showBelSlide(2)">
+            <div style="width:24px;height:24px;background:var(--verde);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0">3</div>
+            <div><strong style="font-size:13px;color:var(--ink);display:block;margin-bottom:2px">Como saber quem está por trás da tela?</strong><span style="font-size:12px;color:var(--ink-muted)">Marco Legal, verificação de idade e privacidade</span></div>
+          </div>
+          <div style="background:var(--branco);border:1px solid var(--borda);border-radius:8px;padding:14px;display:flex;gap:12px;align-items:flex-start;cursor:pointer" onclick="showBelSlide(3)">
+            <div style="width:24px;height:24px;background:var(--verde);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0">4</div>
+            <div><strong style="font-size:13px;color:var(--ink);display:block;margin-bottom:2px">Medidas existem, mas o desafio é grande</strong><span style="font-size:12px;color:var(--ink-muted)">ANPD, orientações aos pais e plataformas</span></div>
+          </div>
+          <div style="background:var(--branco);border:1px solid var(--borda);border-radius:8px;padding:14px;display:flex;gap:12px;align-items:flex-start;cursor:pointer" onclick="showBelSlide(4)">
+            <div style="width:24px;height:24px;background:#CC0000;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0">5</div>
+            <div><strong style="font-size:13px;color:var(--ink);display:block;margin-bottom:2px">Quer entender o que está por trás da tela?</strong><span style="font-size:12px;color:var(--ink-muted)">CTA final com link na bio</span></div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -955,6 +1051,20 @@ function showSlide(i) {
 }
 // auto-advance
 setInterval(() => showSlide((igIdx+1)%slides.length), 3000);
+
+
+// ===== SLIDES BEL =====
+let belIdx = 0;
+function showBelSlide(i) {
+  document.querySelectorAll('.bel-slide').forEach((s,idx) => {
+    s.style.display = idx === i ? 'flex' : 'none';
+  });
+  document.querySelectorAll('.bel-dot').forEach((d,idx) => {
+    d.style.background = idx === i ? '#CC0000' : '#ddd';
+  });
+  belIdx = i;
+}
+setInterval(() => showBelSlide((belIdx+1) % 5), 3500);
 
 // ===== REDES SOCIAIS TABS =====
 function showRS(id) {
